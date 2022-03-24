@@ -25,10 +25,18 @@ namespace Assignment3_2.Pages
             _context = context;
         }
 
-        public async Task OnGetTaskAsync()
+        public async Task SetDataAsync()
         {
+            ViewData["students"] = await _context.Student.ToListAsync();
             students = await _context.Student.ToListAsync();
+            Console.WriteLine(students.First().Studentname);
+
         }
 
+        public async Task OnGetAsync()
+        {
+            students = await _context.Student.ToListAsync();
+            Console.WriteLine(students.First().Studentname);
+        }
     }
 }

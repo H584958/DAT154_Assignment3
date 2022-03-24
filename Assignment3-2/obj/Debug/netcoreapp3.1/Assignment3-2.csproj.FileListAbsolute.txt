@@ -1,6 +1,5 @@
 /Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/Assignment3-2
 /Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/Assignment3-2.deps.json
 /Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/Assignment3-2.runtimeconfig.json
 /Users/simonkobbenes/Projects/Assignment3-2/Assignment3-2/bin/Debug/netcoreapp3.1/Assignment3-2.runtimeconfig.dev.json

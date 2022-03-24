@@ -1,10 +1,25 @@
 ﻿@page
-@model IndexModel
+@using Model;
+@model Assignment3_2.Pages.IndexModel;
 @{
     ViewData["Title"] = "Home page";
+    List<Student> students = (List<Student>)ViewData["students"];
+
 }
 
 <div class="text-center">
+    <form asp-page-handler="Search" method="post" id="form1">
+        <input type="text" id="input"/>
+    </form>
+    <ul>
+        @foreach(var std in students)
+            {
+                <li>
+                    @std.Studentname
+                </li>
+            }
+    </ul>
+
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
